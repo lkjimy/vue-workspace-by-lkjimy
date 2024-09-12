@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  frontend:
+    image: node:20-alpine
+    container_name: vue-workspace-by-lkjimy
+    # The 'env_file' and 'environment' properties do the same thing.
+    # These variables are only available at runtime,
+    # NOT during build.
+    # env_file:
+    #   - .env
+    ports:
+      - '7272:7272'
+    volumes:
+      - ./:/home/app:cached
+    working_dir: /home/app
+    tty: true
+    # Keeps the container running (you have to start the application manually).
+    # Start the container in detached mode, and attach a NEW terminal session.
+    # docker exec -it <container-id> /bin/sh
+    # Comment the command line to use the command from the Dockerfile.
+    command: sleep infinity
