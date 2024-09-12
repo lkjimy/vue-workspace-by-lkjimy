@@ -1,5 +1,12 @@
-# Vue 3 + Vite
+# Vue Workspace
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A Vue 3 based, grid workspace component with draggable tiles.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+![banner.png](banner.png)
+
+## Features
+
+- Create a grid workspace with tiles of any size.
+- Tiles can be dragged around the workspace.
+- Workspace can be set to be editable or not, to stop users from dragging tiles.
+- Set the size of the workspace, and the size of the tiles.
