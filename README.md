@@ -1,4 +1,4 @@
-# Vue Workspace
+# Vue Workspace, by @lkjimy
 
 A Vue 3 based, grid workspace component with draggable tiles.
 
